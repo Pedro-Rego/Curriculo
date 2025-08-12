@@ -1,0 +1,21 @@
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+footer img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+#footer-subtitle {
+    display: flex;
+    justify-content: space-between;
+}
+.link {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.contact {
+    margin-top: 5px;
+}

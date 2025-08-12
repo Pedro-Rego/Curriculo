@@ -1,0 +1,72 @@
+:root {
+    --Title: "Montserrat", sans-serif;
+    --Text: "Inter", sans-serif;
+
+    --Title-lg: 700 3.75rem/120% var(--Title);
+    --Title-md: 700 1.37rem/120% var(--Title);
+    --Title-sm: 700 1.12rem/120% var(--Title);
+    --Text-md: 400 1rem/120% var(--Text);
+
+    --bg-color: #F5F5F5;
+    --Title-color: #2E2E2E;
+    --Text-color: #6B6B6B;
+    --bd-color: #E0E0E0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    background-image: url("../assets/bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    padding: 80px;
+    width: 794px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+h1 {
+    font: var(--Title-lg);
+    margin: 40px;
+}
+
+h2 {
+    font: var(--Title-md);
+    margin: 0;
+}
+
+h3 {
+    font: var(--Title-sm);
+    margin: 0;
+}
+
+p {
+    font: var(--Text-md);
+    margin: 0;
+}
+
+img {
+    width: 225px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.border {
+    border: 1px solid #EBECF0;
+    margin: 10px 0 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    padding-left: 20px;
+}
